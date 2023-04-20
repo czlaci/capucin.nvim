@@ -34,8 +34,8 @@ body:
         - [Enable italic font support](https://gist.github.com/gutoyr/4192af1aced7a1b555df06bd3781a722) to fix the [incorrect if, then, else, end highlights](https://github.com/catppuccin/nvim/issues/428)
   - type: input
     attributes:
-      label: "Catppuccin version / branch / rev"
-      placeholder: "catppuccin v1.1.0"
+      label: "Capucin version / branch / rev"
+      placeholder: "capucin v1.1.0"
     validations:
       required: true
   - type: textarea
@@ -81,13 +81,13 @@ body:
 
         -- install plugins
         local plugins = {
-          "catppuccin/nvim",
+          "czlaci/capucin.nvim",
           -- add any other plugins here
         }
         require("lazy").setup(plugins, {
           root = root .. "/plugins",
         })
 
-        vim.cmd.colorscheme("catppuccin")
+        vim.cmd.colorscheme("capucin")
         -- add anything else here
       render: Lua

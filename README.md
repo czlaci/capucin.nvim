@@ -1,86 +1,53 @@
 <!-- panvimdoc-ignore-start -->
 
 <h3 align="center">
-    <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
-    <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-    Catppuccin for <a href="https://github.com/neovim/neovim">(Neo)</a><a href="https://github.com/vim/vim">vim</a>
-    <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+    Capucin for <a href="https://github.com/neovim/neovim">(Neo)</a><a href="https://github.com/vim/vim">vim</a>
+    <img src="https://raw.githubusercontent.com/capucin/capucin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-    <a href="https://github.com/catppuccin/nvim/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/nvim?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/nvim/issues"><img src="https://img.shields.io/github/issues/catppuccin/nvim?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/nvim/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/nvim?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+    <a href="https://github.com/czlaci/capucin.nvim/stargazers"><img src="https://img.shields.io/github/stars/czlaci/capucin.nvim?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+    <a href="https://github.com/czlaci/capucin.nvim/issues"><img src="https://img.shields.io/github/issues/czlaci/capucin.nvim?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+    <a href="https://github.com/czlaci/capucin.nvim/contributors"><img src="https://img.shields.io/github/contributors/czlaci/capucin.nvim?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-This port of <a href="https://github.com/catppuccin/">Catppuccin</a> is special because it was the first one and the one that originated the project itself. Given this, it's important to acknowledge that it all didn't come to be what it is now out of nowhere. So, if you are interested in knowing more about the initial stages of the theme, you can find it under the <a href="https://github.com/catppuccin/nvim/tree/v0.1">v0.1</a> tag
+This port of <a href="https://github.com/czlaci/capucin.nvim/">Capucin</a> is special because it was the first one and the one that originated the project itself. Given this, it's important to acknowledge that it all didn't come to be what it is now out of nowhere. So, if you are interested in knowing more about the initial stages of the theme, you can find it under the <a href="https://github.com/czlaci/capucin.nvim/tree/v0.1">v0.1</a> tag
 </p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/56817415/213472445-091e54fb-091f-4448-a631-fa6b2ba7d8a5.png"/>
-</p>
-
-# Flavours
-
-<details>
-<summary>Latte</summary>
-<img src="https://user-images.githubusercontent.com/56817415/213473391-603bdc68-68f4-4877-a15a-b469040928b5.png"/>
-</details>
-<details>
-<summary>Frappe</summary>
-<img src="https://user-images.githubusercontent.com/56817415/213473368-16931b70-fd84-4a89-a698-1b1bca1f82de.png"/>
-</details>
-<details>
-<summary>Macchiato</summary>
-<img src="https://user-images.githubusercontent.com/56817415/213473285-7bd858be-6947-4d9e-8c01-2573cbc7e76c.png"/>
-</details>
-<details>
-<summary>Mocha</summary>
-<img src="https://user-images.githubusercontent.com/56817415/213471997-34837219-88cc-4db2-baca-e25813a89789.png"/>
-</details>
-
-**[Bake your own flavour!](https://github.com/catppuccin/nvim/#overwriting-colors)** Here are some **[config from our community](https://github.com/catppuccin/nvim/discussions/323)**: <a href="https://www.pixiv.net/en/artworks/101554989"><sub><sup>(background source)</sup></sub></a>
-</p>
-
-![nvimwalk-custom](https://user-images.githubusercontent.com/56817415/213480149-6ba92b81-1ada-46a4-89bd-4e2bb25d19c3.png)
-<p align="center">
-
-<!-- panvimdoc-ignore-end -->
 
 # Features
 
 - Supports both vim and neovim (Requires [neovim](https://github.com/neovim/neovim/) >= 0.8 or [vim](https://github.com/vim/vim) >= 9 compiled with [lua](https://github.com/lua/lua) >= 5.1)
-- Highly configurable with 4 different flavours and [ability to create your own!](https://github.com/catppuccin/nvim/discussions/323)
-- [Compile](https://github.com/catppuccin/nvim#Compile) user config for [fastest startuptime](https://www.reddit.com/r/neovim/comments/xxfpt3/catppuccinnvim_now_startup_in_1ms/)
-- Integrations with lsp, treesitter and [a bunch of plugins](https://github.com/catppuccin/nvim#integrations)
-- Supports for [many other applications](https://github.com/catppuccin/catppuccin)
+- Highly configurable with 4 different flavours and [ability to create your own!](https://github.com/capucin/nvim/discussions/323)
+- [Compile](https://github.com/capucin/nvim#Compile) user config for [fastest startuptime](https://www.reddit.com/r/neovim/comments/xxfpt3/capucinnvim_now_startup_in_1ms/)
+- Integrations with lsp, treesitter and [a bunch of plugins](https://github.com/capucin/nvim#integrations)
+- Supports for [many other applications](https://github.com/capucin/capucin)
 
 # Installation
 
 [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua
-{ "catppuccin/nvim", name = "catppuccin" }
+{ "capucin/nvim", name = "capucin" }
 ```
 
 [packer.nvim](https://github.com/wbthomason/packer.nvim)
 ```lua
-use { "catppuccin/nvim", as = "catppuccin" }
+use { "capucin/nvim", as = "capucin" }
 ```
 
 [vim-plug](https://github.com/junegunn/vim-plug)
 ```vim
-Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'capucin/nvim', { 'as': 'capucin' }
 ```
 
 # Usage
 
 ```vim
-colorscheme catppuccin " catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
+colorscheme capucin " capucin-latte, capucin-frappe, capucin-macchiato, capucin-mocha
 ```
 
 ```lua
-vim.cmd.colorscheme "catppuccin"
+vim.cmd.colorscheme "capucin"
 ```
 
 # Configuration
@@ -88,7 +55,7 @@ vim.cmd.colorscheme "catppuccin"
 There is no need to call `setup` if you don't want to change the default options and settings.
 
 ```lua
-require("catppuccin").setup({
+require("capucin").setup({
     flavour = "mocha", -- latte, frappe, macchiato, mocha
     background = { -- :h background
         light = "latte",
@@ -127,12 +94,12 @@ require("catppuccin").setup({
         telescope = true,
         notify = false,
         mini = false,
-        -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
+        -- For more plugins integrations please scroll down (https://github.com/capucin/nvim#integrations)
     },
 })
 
 -- setup must be called before loading
-vim.cmd.colorscheme "catppuccin"
+vim.cmd.colorscheme "capucin"
 ```
 
 Although settings already have self-explanatory names, here is where you can find info about each one of them and their classifications!
@@ -141,7 +108,7 @@ Although settings already have self-explanatory names, here is where you can fin
 
 This settings are unrelated to any group and are independent.
 
-- `background`: (Table) Match :set background=light/dark with :Catppuccin background.light/dark
+- `background`: (Table) Match :set background=light/dark with :Capucin background.light/dark
 - `term_colors`: (Boolean) if true, sets terminal colors (e.g. `g:terminal_color_0`).
 - `transparent_background`: (Boolean) if true, disables setting the background color.
 
@@ -165,13 +132,13 @@ Handles the style of general hi groups (see `:h highlight-args`):
 
 # Customize highlights
 
-## Get catppuccin colors
+## Get capucin colors
 
 ```lua
-local latte = require("catppuccin.palettes").get_palette "latte"
-local frappe = require("catppuccin.palettes").get_palette "frappe"
-local macchiato = require("catppuccin.palettes").get_palette "macchiato"
-local mocha = require("catppuccin.palettes").get_palette "mocha"
+local latte = require("capucin.palettes").get_palette "latte"
+local frappe = require("capucin.palettes").get_palette "frappe"
+local macchiato = require("capucin.palettes").get_palette "macchiato"
+local mocha = require("capucin.palettes").get_palette "mocha"
 ```
 
 Will returns a table where the key is the name of the color and the value is its hex value corresponding to each flavour.
@@ -181,7 +148,7 @@ Will returns a table where the key is the name of the color and the value is its
 Colors can be overwritten using `color_overrides` in the setting, like so:
 
 ```lua
-require("catppuccin").setup {
+require("capucin").setup {
     color_overrides = {
         all = {
             text = "#ffffff",
@@ -246,7 +213,7 @@ end
 Here is an example:
 
 ```lua
-require("catppuccin").setup {
+require("capucin").setup {
     custom_highlights = function(colors)
         return {
             Comment = { fg = colors.flamingo },
@@ -276,7 +243,7 @@ highlight_overrides = {
 Here is an example:
 
 ```lua
-require("catppuccin").setup {
+require("capucin").setup {
   highlight_overrides = {
         all = function(colors)
             return {
@@ -310,9 +277,9 @@ require("catppuccin").setup {
 
 # Integrations
 
-catppuccin-nvim provides theme support for other plugins in the Neovim ecosystem and extended Neovim functionality through _integrations_.
+capucin-nvim provides theme support for other plugins in the Neovim ecosystem and extended Neovim functionality through _integrations_.
 
-Below is a list of supported plugins and their corresponding integration module. (See [Special integrations](https://github.com/catppuccin/nvim#special-integrations) for more.)
+Below is a list of supported plugins and their corresponding integration module. (See [Special integrations](https://github.com/capucin/nvim#special-integrations) for more.)
 
 | Plugin                                                                                | Module              |
 | ------------------------------------------------------------------------------------- | ------------------- |
@@ -371,12 +338,12 @@ Below is a list of supported plugins and their corresponding integration module.
 | [vimwiki](https://github.com/vimwiki/vimwiki)                                         | vimwiki             |
 | [which-key.nvim](https://github.com/folke/which-key.nvim)                             | which_key           |
 
-> "Special" module means Special integrations, see <https://github.com/catppuccin/nvim#special-integrations> for more details
+> "Special" module means Special integrations, see <https://github.com/capucin/nvim#special-integrations> for more details
 
-These integrations allow catppuccin to set the theme of various plugins. To enable an integration you just need to set it to `true`, for example:
+These integrations allow capucin to set the theme of various plugins. To enable an integration you just need to set it to `true`, for example:
 
 ```lua
-require("catppuccin").setup({
+require("capucin").setup({
     integrations = {
         <module> = <boolean>
     }
@@ -386,7 +353,7 @@ require("catppuccin").setup({
 <details> <summary> <ins> Click here to see an example config </ins> </summary>
 
 ```lua
-require("catppuccin").setup({
+require("capucin").setup({
     integrations = {
         aerial = false,
         barbar = false,
@@ -431,7 +398,7 @@ require("catppuccin").setup({
         vimwiki = false,
         which_key = false,
 
-        -- Special integrations, see https://github.com/catppuccin/nvim#special-integrations
+        -- Special integrations, see https://github.com/capucin/nvim#special-integrations
         barbecue = {
             dim_dirname = true,
             bold_basename = true,
@@ -476,11 +443,11 @@ require("catppuccin").setup({
 
 <details> <summary>barbecue.nvim</summary>
 
-Use this to set it up (**Note**: `catppuccin` is the only valid theme name. It will pick the one set in your config):
+Use this to set it up (**Note**: `capucin` is the only valid theme name. It will pick the one set in your config):
 
 ```lua
 require("barbecue").setup {
-  theme = "catppuccin",
+  theme = "capucin",
 }
 ```
 
@@ -499,16 +466,16 @@ integrations = {
 
 <details> <summary>bufferline.nvim</summary>
 
-Update your bufferline config to use the Catppuccin components:
+Update your bufferline config to use the Capucin components:
 
-> **Note**: bufferline needs to be loaded after setting up catppuccin or it will highlight incorrectly
+> **Note**: bufferline needs to be loaded after setting up capucin or it will highlight incorrectly
 
 ```lua
 use "akinsho/bufferline.nvim" {
-  after = "catppuccin",
+  after = "capucin",
   config = function()
     require("bufferline").setup {
-      highlights = require("catppuccin.groups.integrations.bufferline").get()
+      highlights = require("capucin.groups.integrations.bufferline").get()
     }
   end
 }
@@ -517,9 +484,9 @@ use "akinsho/bufferline.nvim" {
 Configurations are self-explanatory, see `:h bufferline-highlights` for detailed explanations:
 
 ```lua
-local mocha = require("catppuccin.palettes").get_palette "mocha"
+local mocha = require("capucin.palettes").get_palette "mocha"
 bufferline.setup {
-    highlights = require("catppuccin.groups.integrations.bufferline").get {
+    highlights = require("capucin.groups.integrations.bufferline").get {
         styles = { "italic", "bold" },
         custom = {
             all = {
@@ -571,10 +538,10 @@ native_lsp = {
 
 <details> <summary>feline.nvim</summary>
 
-Update your Feline config to use the Catppuccin components:
+Update your Feline config to use the Capucin components:
 
 ```lua
-local ctp_feline = require('catppuccin.groups.integrations.feline')
+local ctp_feline = require('capucin.groups.integrations.feline')
 
 ctp_feline.setup()
 
@@ -588,9 +555,9 @@ Notice that calling `setup()` is optional. You may pass a lua table in order to 
 Here are the defaults:
 
 ```lua
-local clrs = require("catppuccin.palettes").get_palette()
-local ctp_feline = require('catppuccin.groups.integrations.feline')
-local U = require "catppuccin.utils.colors"
+local clrs = require("capucin.palettes").get_palette()
+local ctp_feline = require('capucin.groups.integrations.feline')
+local U = require "capucin.utils.colors"
 
 ctp_feline.setup({
     assets = {
@@ -647,16 +614,16 @@ ctp_feline.setup({
 })
 ```
 
-> **Note**: Currently feline [doesn't officially support custom themes](https://github.com/feline-nvim/feline.nvim/issues/302). In order for `:colorscheme catppuccin-<flavour>` to work you could add this autocmd as a workaround:
+> **Note**: Currently feline [doesn't officially support custom themes](https://github.com/feline-nvim/feline.nvim/issues/302). In order for `:colorscheme capucin-<flavour>` to work you could add this autocmd as a workaround:
 
 ```lua
 vim.api.nvim_create_autocmd("ColorScheme", {
     pattern = "*",
     callback = function()
         package.loaded["feline"] = nil
-        package.loaded["catppuccin.groups.integrations.feline"] = nil
+        package.loaded["capucin.groups.integrations.feline"] = nil
         require("feline").setup {
-            components = require("catppuccin.groups.integrations.feline").get(),
+            components = require("capucin.groups.integrations.feline").get(),
         }
     end,
 })
@@ -700,10 +667,10 @@ indent_blankline = {
 
 <details> <summary>lightline.vim</summary>
 
-Use this to set it up (**Note**: `catppuccin` is the only valid colorscheme name. It will pick the one set in your config):
+Use this to set it up (**Note**: `capucin` is the only valid colorscheme name. It will pick the one set in your config):
 
 ```vim
-let g:lightline = {'colorscheme': 'catppuccin'}
+let g:lightline = {'colorscheme': 'capucin'}
 ```
 
 </details>
@@ -716,7 +683,7 @@ For custom Lsp Kind Icon and Color
 ```lua
 require("lspsaga").setup {
     ui = {
-        kind = require("catppuccin.groups.integrations.lsp_saga").custom_kind(),
+        kind = require("capucin.groups.integrations.lsp_saga").custom_kind(),
     },
 }
 ```
@@ -727,12 +694,12 @@ require("lspsaga").setup {
 
 <details> <summary>lualine.nvim</summary>
 
-Use this to set it up (**Note**: `catppuccin` is the only valid theme name. It will pick the one set in your config):
+Use this to set it up (**Note**: `capucin` is the only valid theme name. It will pick the one set in your config):
 
 ```lua
 require('lualine').setup {
     options = {
-        theme = "catppuccin"
+        theme = "capucin"
         -- ... the rest of your lualine config
     }
 }
@@ -814,10 +781,10 @@ require("nvim-navic").setup {
 
 <details> <summary>vim-airline</summary>
 
-Use this to set it up (**Note**: `catppuccin` is the only valid colorscheme name. It will pick the one set in your config):
+Use this to set it up (**Note**: `capucin` is the only valid colorscheme name. It will pick the one set in your config):
 
 ```vim
-let g:airline_theme = 'catppuccin'
+let g:airline_theme = 'capucin'
 ```
 
 </details>
@@ -829,40 +796,40 @@ let g:airline_theme = 'catppuccin'
 Use this to set it up:
 
 ```vim
-let g:clap_theme = 'catppuccin'
+let g:clap_theme = 'capucin'
 ```
 
 </details>
 
-If you'd like to know which highlight groups are being affected by catppuccin, check out this directory: [`lua/catppuccin/groups/integrations/`](https://github.com/catppuccin/nvim/tree/main/lua/catppuccin/groups/integrations).
+If you'd like to know which highlight groups are being affected by capucin, check out this directory: [`lua/capucin/groups/integrations/`](https://github.com/capucin/nvim/tree/main/lua/capucin/groups/integrations).
 
 # Compile
 
-> **Note**: As of 7/10/2022, catppuccin should be able to automatically recompile when the setup table changed.
+> **Note**: As of 7/10/2022, capucin should be able to automatically recompile when the setup table changed.
 
-Catppuccin is a highly customizable and configurable colorscheme. This does however come at the cost of complexity and execution time.
+Capucin is a highly customizable and configurable colorscheme. This does however come at the cost of complexity and execution time.
 
-Catppuccin can pre compute the results of your configuration and store the results in a compiled lua file. We use these precached values to set it's highlights.
+Capucin can pre compute the results of your configuration and store the results in a compiled lua file. We use these precached values to set it's highlights.
 
 ## Config
 
-By default catppuccin writes the compiled results into the system's cache directory. You can change the cache dir using:
+By default capucin writes the compiled results into the system's cache directory. You can change the cache dir using:
 
 ```lua
-require("catppuccin").setup({ -- Note: On windows we replace `/` with `\` by default
-    compile_path = vim.fn.stdpath "cache" .. "/catppuccin"
+require("capucin").setup({ -- Note: On windows we replace `/` with `\` by default
+    compile_path = vim.fn.stdpath "cache" .. "/capucin"
 })
 ```
 
 ## Compile commands
 
 ```vim
-:CatppuccinCompile " Create/update the compile file
+:CapucinCompile " Create/update the compile file
 ```
 
 ```lua
 
-require('catppuccin').compile() -- Catppuccin also provide a function to work with the catppuccin compiler.
+require('capucin').compile() -- Capucin also provide a function to work with the capucin compiler.
 ```
 
 ## Hooks
@@ -880,14 +847,14 @@ They can be used like so:
 vim.api.nvim_create_autocmd("ColorSchemePre", {
     pattern = "*",
     callback = function()
-        print "I ran before loading Catppuccin!"
+        print "I ran before loading Capucin!"
     end
 })
 
 vim.api.nvim_create_autocmd("ColorScheme", {
     pattern = "*",
     callback = function()
-        local colors = require("catppuccin.palettes").get_palette()
+        local colors = require("capucin.palettes").get_palette()
         -- do something with colors
     end
 })
@@ -895,10 +862,10 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 
 # FAQ
 
-## Switch Catppuccin flavour on the fly
+## Switch Capucin flavour on the fly
 
 ```lua
-:Catppuccin mocha/macchiato/frappe/latte
+:Capucin mocha/macchiato/frappe/latte
 ```
 
 > **Note**: the command has autocompletion enabled, so you can just press tab to cycle through the flavours
@@ -906,14 +873,14 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 ## Load other custom highlights later
 
 ```lua
-require("catppuccin.lib.highlighter").syntax()
+require("capucin.lib.highlighter").syntax()
 ```
 
 For example:
 
 ```lua
-local colors = require("catppuccin.palettes").get_palette() -- fetch colors from palette
-require("catppuccin.lib.highlighter").syntax({
+local colors = require("capucin.palettes").get_palette() -- fetch colors from palette
+require("capucin.lib.highlighter").syntax({
     Comment = { fg = colors.surface0 }
 })
 ```
@@ -935,7 +902,7 @@ require("nvim-treesitter.configs").setup {
 
 ## Colors doesn't match preview screenshots
 
-Catppuccin requires true color support AKA terminals support the full range of 16 million colors
+Capucin requires true color support AKA terminals support the full range of 16 million colors
 
 - Supported: iterm2 (macOS), kitty, wezterm, alacritty, tmux, ...
 
@@ -949,13 +916,10 @@ Full list of Unsupported terminals can be found here: <https://github.com/termst
 
 - [Pocco81](https://github.com/Pocco81)
 - [nullchilly](https://github.com/nullchilly)
+- [catppuccin](https://github.com/catppuccin)
 
 <!-- panvimdoc-ignore-start -->
 
 &nbsp;
-
-<p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
-<p align="center">Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
-<p align="center"><a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a></p>
 
 <!-- panvimdoc-ignore-end -->
