@@ -1,5 +1,5 @@
 local is_vim = vim.fn.has "nvim" ~= 1
-if is_vim then require "catppuccin.lib.vim" end
+if is_vim then require "capucin.lib.vim" end
 
 local M = {
 	options = {
@@ -7,7 +7,7 @@ local M = {
 			light = "latte",
 			dark = "mocha",
 		},
-		compile_path = vim.fn.stdpath "cache" .. "/catppuccin",
+		compile_path = vim.fn.stdpath "cache" .. "/capucin",
 		transparent_background = false,
 		show_end_of_buffer = false,
 		term_colors = false,
@@ -84,7 +84,7 @@ function M.compile()
 	local user_flavour = M.flavour
 	for flavour, _ in pairs(M.flavours) do
 		M.flavour = flavour
-		require("catppuccin.lib." .. (is_vim and "vim." or "") .. "compiler").compile(flavour)
+		require("capucin.lib." .. (is_vim and "vim." or "") .. "compiler").compile(flavour)
 	end
 	M.flavour = user_flavour -- Restore user flavour after compile
 end
@@ -93,7 +93,7 @@ local function get_flavour(default)
 	local flavour
 	if default then
 		flavour = default
-	elseif vim.g.colors_name == "catppuccin" then -- after first time load
+	elseif vim.g.colors_name == "capucin" then -- after first time load
 		flavour = M.options.background[vim.o.background]
 	else
 		flavour = M.flavour -- first time load
@@ -102,7 +102,7 @@ local function get_flavour(default)
 	if flavour and not M.flavours[flavour] then
 		vim.notify(
 			string.format(
-				"Catppuccin (error): Invalid flavour '%s', flavour must be 'latte', 'frappe', 'macchiato' or 'mocha'",
+				"Catpucin (error): Invalid flavour '%s', flavour must be 'latte', 'frappe', 'macchiato' or 'mocha'",
 				flavour
 			),
 			vim.log.levels.ERROR
@@ -146,7 +146,7 @@ function M.setup(user_conf)
 	-- Get current hash
 	local git_path = debug.getinfo(1).source:sub(2, -24) .. ".git"
 	local git = vim.fn.getftime(git_path) -- 2x faster vim.loop.fs_stat
-	local hash = require("catppuccin.lib.hashing").hash(user_conf)
+	local hash = require("capucin.lib.hashing").hash(user_conf)
 		.. (git == -1 and git_path or git) -- no .git in /nix/store -> cache path
 		.. (vim.o.winblend == 0 and 1 or 0) -- :h winblend
 		.. (vim.o.pumblend == 0 and 1 or 0) -- :h pumblend
@@ -165,8 +165,8 @@ end
 if is_vim then return M end
 
 vim.api.nvim_create_user_command(
-	"Catppuccin",
-	function(inp) vim.api.nvim_command("colorscheme catppuccin-" .. get_flavour(inp.args)) end,
+	"Capucin",
+	function(inp) vim.api.nvim_command("colorscheme capucin-" .. get_flavour(inp.args)) end,
 	{
 		nargs = 1,
 		complete = function(line)
@@ -175,13 +175,13 @@ vim.api.nvim_create_user_command(
 	}
 )
 
-vim.api.nvim_create_user_command("CatppuccinCompile", function()
+vim.api.nvim_create_user_command("CapucinCompile", function()
 	for name, _ in pairs(package.loaded) do
-		if name:match "^catppuccin" and name ~= "catppuccin" then package.loaded[name] = nil end
+		if name:match "^capucin" and name ~= "capucin" then package.loaded[name] = nil end
 	end
 	M.compile()
-	vim.notify("Catppuccin (info): compiled cache!", vim.log.levels.INFO)
-	vim.api.nvim_command "colorscheme catppuccin"
+	vim.notify("Capucin (info): compiled cache!", vim.log.levels.INFO)
+	vim.api.nvim_command "colorscheme capucin"
 end, {})
 
 return M
